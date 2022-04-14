@@ -1,0 +1,19 @@
+canvas {
+    display: block;
+    margin: 0 auto;
+    image-rendering: optimizeSpeed;             /* PREFER SPEED OVER SMOOTHING  */
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+ }
+
+ img { 
+    image-rendering: optimizeSpeed;             /* PREFER SPEED OVER SMOOTHING  */
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+}
